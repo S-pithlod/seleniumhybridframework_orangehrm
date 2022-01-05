@@ -13,6 +13,9 @@ import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.ui.Select;
 
 public class Helper {
+	
+	
+	//handle windows, i frame, alert, etc
 
 	public static void selectDropDownValue(WebElement ele, String visibleText) {
 
