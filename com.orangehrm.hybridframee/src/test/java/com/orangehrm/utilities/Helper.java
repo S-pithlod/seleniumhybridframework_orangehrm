@@ -17,8 +17,6 @@ public class Helper {
 	
 	//handle windows, i frame, alert, etc
 	
-	// this is my project
-
 	public static void selectDropDownValue(WebElement ele, String visibleText) {
 
 		new Select(ele).selectByVisibleText(visibleText);
